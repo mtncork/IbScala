@@ -1,0 +1,33 @@
+# orig from Scala gitignore template
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
+
+dist/*
+target/
+lib/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/project/
+project/target/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.settings/
+
+# Eclipse 
+.classpath
+.project
+# eclipse or sbt ?
+.cache
+
+# local stuff
+src/main/scala/test/
+src/main/scala/newStuff/
