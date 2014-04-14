@@ -27,6 +27,14 @@ project/target/
 .project
 # eclipse or sbt ?
 .cache
+.idea
+.idea_modules
+*.swp
+project.vim
+tags
+*~
+*#
+.DS_Store
 
 # local stuff
 src/main/scala/test/
