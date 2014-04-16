@@ -34,11 +34,11 @@ The test code as well as the sample applications require that an instance of the
 1. Enable ActiveX and Socket Clients. 
 1. Set the port to 7496.
  
-The dialog in question looks like this:<br>![TWS Settings](TwsSettings.jpg)
+The dialog in question looks like this:<br>![TWS Settings](http://i.imgur.com/6Ij6kZc.jpg)
 
 Likewise add the localhost address, 127.0.0.1. It will need to be in the following list, which may have other entries as well. 
 
-![Trusted IP Addresses](TrustedIP.jpg)
+![Trusted IP Addresses](http://i.imgur.com/z4W4nMt.jpg)
 
 
 
