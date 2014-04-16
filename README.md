@@ -37,6 +37,7 @@ The test code as well as the sample applications require that an instance of the
 The dialog in question looks like this:<br>![TWS Settings](TwsSettings.jpg)
 
 Likewise add the localhost address, 127.0.0.1. It will need to be in the following list, which may have other entries as well. 
+
 ![Trusted IP Addresses](TrustedIP.jpg)
 
 
@@ -59,11 +60,13 @@ All of the testing for this release was done within a paper trading account.
 ### Caveats ###
 
 The current codebase is lacking particular areas of functionality:
-1. There is no Financial Advisor support. The code to manage accounts has not been implemented.
-2. There is no specific support for algo-based orders.
-3. There is no support for News bulletins.
-4. There is no support for the retrieval of execution reports.
-5. There is no explicit support for bond contracts, unlike stock, futures, and option ( on stocks and futures ) contracts. 
+<ol>
+<li>There is no Financial Advisor support. The code to manage accounts has not been implemented.</li>
+<li>There is no specific support for algo-based orders.</li>
+<li>There is no support for News bulletins.</li>
+<li>There is no support for the retrieval of execution reports.</li>
+<li>There is no explicit support for bond contracts, unlike stock, futures, and option ( on stocks and futures ) contracts.</li>
+</ol> 
 
 ### In the Pipeline ###
 
