@@ -51,9 +51,9 @@ Most of the <a href="http://www.scalatest.org/">ScalaTest</a> tests in src/test/
 
 For tests that place orders additional warning messages have been included.
 
-### <center>Do  not run the tests in the OrderTests module in a standard, active IB account !!!</center> ###
-### <center>Use a paper trading, or demo account only !!!</center>###
-### <center>$$$ Otherwise, **MONETARY LOSSES MAY RESULT $$$** !!!</center>###
+#### <center>Do  not run the tests in the OrderTests module in a standard, active IB account !!!</center> ####
+#### <center>Use a paper trading, or demo account only !!!</center>####
+#### <center>$$$ Otherwise, **MONETARY LOSSES MAY RESULT $$$** !!!</center>####
 
 
 
