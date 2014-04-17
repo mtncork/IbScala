@@ -31,7 +31,7 @@ The above procedure assumes that the file 'plugins.sbt' exists in the project di
 Empty lines are required between each of the above entries.
 
 ### TWS Connection ###
-The test code as well as the sample applications require that an instance of the IB Trader Workstation application is running. The current connection code assumes that **TWS is running on the same machine**, and tries to connect through localhost, ip address 127.0.0.1. The standard port for TWS of **7496** is used. You will need to set TWS to allow local connections. The setting is found through the TWS application menu at: 
+The test code as well as the sample applications require that an instance of the IB Trader Workstation application is running. The current connection code assumes that **TWS is running on the same machine**, and tries to connect through localhost, IP address 127.0.0.1. The standard port for TWS of **7496** is used. You will need to set TWS to allow local connections. The setting is found through the TWS application menu at: 
    **File -> Global Configuration -> API -> Settings**
 1. Enable ActiveX and Socket Clients. 
 1. Set the port to 7496.

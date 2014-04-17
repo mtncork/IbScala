@@ -5,7 +5,7 @@ The majority of the functionality in **IbScala** is implemented in a set of <a h
 Each trait implements a combination of user-callable functions along with the portions of the TWS callback interface supporting that specific area of functionality. The source files are found in a standard SBT location **src/main/scala**. The sample applications can be found in subdirectories **apps** and **guiapps**. ScalaTest files are found in **src/test/scala**.
 
 The library is split into the following modules (files):
-- **Connect** - this module implements the IbConnection class previously described. Besides creating the physical connection to TWS it also provides unique request IDs when queried through user facing functions in the other traits. The file contains a section of 'stub' functions for some of the those aspects of the TWS interface not fully implemented. 
+- **Connect** - this module implements the IbConnection class previously described. Besides creating the physical connection to TWS it also provides unique request IDs when required by user-facing functions in the other traits. The file contains a section of 'stub' functions for some of those aspects of the TWS interface not fully implemented. 
 - **Account** - contains 'stub' functions for portfolio / account update functions
 - **ContractDetails** - implements functionality for the retrieval of contract details
 - **ContractTypes** - implements several classes representing common contract types
