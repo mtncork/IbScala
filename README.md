@@ -33,8 +33,10 @@ Empty lines are required between each of the above entries.
 ### TWS Connection ###
 The test code as well as the sample applications require that an instance of the IB Trader Workstation application is running. The current connection code assumes that **TWS is running on the same machine**, and tries to connect through localhost, IP address 127.0.0.1. The standard port for TWS of **7496** is used. You will need to set TWS to allow local connections. The setting is found through the TWS application menu at: 
    **File -> Global Configuration -> API -> Settings**
-1. Enable ActiveX and Socket Clients. 
-1. Set the port to 7496.
+<ol>
+<li>Enable ActiveX and Socket Clients.</li> 
+<li>Set the port to 7496.</li>
+</ol>
  
 The dialog in question looks like this:<br>![TWS Settings](http://i.imgur.com/6Ij6kZc.jpg)
 
