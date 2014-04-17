@@ -10,11 +10,13 @@ There is an overview of the structure and files in the project in **Overview.md*
 
 ### Using Eclipse ###
 You can generate an Eclipse project from the SBT settings by:
-1. at a command line/shell prompt change (cd) to the main directory for this project
-2. type 'sbt' ( sbt will attempt to resolve the library dependencies for the project )
-3. once its finished, at the sbt prompt type 'eclipse'
-4. sbt will generate the appropriate project files
-5. open eclipse and then import the main folder (project) as a new project
+<ol>
+<li>at a command line/shell prompt change (cd) to the main directory for this project</li>
+<li>type 'sbt' ( sbt will attempt to resolve the library dependencies for the project )</li>
+<li>once its finished, at the sbt prompt type 'eclipse'</li>
+<li>sbt will generate the appropriate project files</li>
+<li>open eclipse and then import the main folder (project) as a new project</li>
+</ol>
 
 The above procedure assumes that the file 'plugins.sbt' exists in the project directory. If that file is missing, then add it with the following content:
 
